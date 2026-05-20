@@ -1,0 +1,118 @@
+index.html
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tamil Research Library</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+    margin:0;
+    font-family:'Noto Sans Tamil',sans-serif;
+    background:#f4f6f9;
+    color:#222;
+}
+
+header{
+    background:#0b3d91;
+    color:white;
+    padding:30px;
+    text-align:center;
+}
+
+header h1{
+    margin:0;
+    font-size:40px;
+}
+
+.search-box{
+    text-align:center;
+    margin:30px;
+}
+
+.search-box input{
+    width:80%;
+    max-width:500px;
+    padding:12px;
+    border-radius:10px;
+    border:1px solid #ccc;
+    font-size:16px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    margin-top:0;
+    color:#0b3d91;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:10px 15px;
+    background:#0b3d91;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+    background:#0b3d91;
+    color:white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>தமிழ் ஆய்வு நூலகம்</h1>
+    <p>Modern Tamil Research Archive</p>
+</header>
+
+<div class="search-box">
+    <input type="text" placeholder="ஆண்டு, ஆசிரியர், இதழ் தேடுக...">
+</div>
+
+<div class="container">
+
+<div class="card">
+    <h3>1981 ஜூலை - செப்டம்பர்</h3>
+    <p>தொகுதி 5 • எண் 1</p>
+    <p>ஆசிரியர்: ச. சீனிவாசராமன்</p>
+    <a class="btn" href="#">PDF பார்க்க</a>
+</div>
+
+<div class="card">
+    <h3>1982 அக்டோபர் - டிசம்பர்</h3>
+    <p>தொகுதி 6 • எண் 2</p>
+    <p>ஆசிரியர்: கி. நடராசபிள்ளை</p>
+    <a class="btn" href="#">PDF பார்க்க</a>
+</div>
+
+</div>
+
+<footer>
+    © 2026 Tamil Research Library
+</footer>
+
+</body>
+</html>
